@@ -50,10 +50,17 @@ export default function Main({title}) {
             </Typography>
             <Typography variant="h6" align="center" color="text.secondary" paragraph>
               Get all variety of foods you are looking for from various 
-              eatries around your. View all eatries around, view their
+              eatries around you. View all eatries around, view their
               various menu, prices and easily contact them
               to place your order.
             </Typography>
+            <div style={{marginTop: 50, border: "1px solid #61C890"}}>
+            <h3 style={{textAlign: "center"}}>Veet Beta</h3>
+            <Typography variant="h6" align="center" color="text.secondary" paragraph>
+              Would you like to join the beta production? then download app from
+              the section below.
+            </Typography>
+            </div>
             <h3 style={{textAlign: "center", marginTop: 60}}>Download App</h3>
             <div className='stack-btn'>
             <Stack
@@ -65,6 +72,9 @@ export default function Main({title}) {
             <CustomizedButtons title="PlayStore" />  
             <CustomizedButtons title="AppStore" />
             </Stack>
+            <Typography style={{marginTop: 20}} variant="h6" align="center" color="text.secondary" paragraph>
+              Thank you for trying it out.
+            </Typography>
             </div>
           </Container>
         </Box>
@@ -72,7 +82,7 @@ export default function Main({title}) {
       {/* Footer */}
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
-        <img style={{ width: 50, height: "auto" }} src="icon.png" />
+        <img style={{ width: 50, height: "auto" }} alt="logo" src="icon.png" />
         </Typography>
         <Typography
           variant="subtitle1"

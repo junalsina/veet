@@ -35,9 +35,6 @@ const BootstrapButton = styled(Button)({
     backgroundColor: '#43A771',
     borderColor: '#43A771',
   },
-  '&:focus': {
-    boxShadow: '0 0 0 0.2rem rgba(97, 200, 144, 5)',
-  },
 });
 
 export default function CustomizedButtons({title}) {
