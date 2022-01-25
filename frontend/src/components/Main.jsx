@@ -11,7 +11,7 @@ import CustomizedButtons from "./Button";
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" fontFamily="Dongle" fontSize="25px" color="text.secondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="veetgh.herokuapp.com">
         veet
@@ -44,6 +44,8 @@ export default function Main({ title }) {
               variant="h3"
               align="center"
               color="text.primary"
+              fontFamily="Dongle"
+              fontSize="60px"
               gutterBottom
             >
               Easily identify foods around
@@ -52,25 +54,48 @@ export default function Main({ title }) {
               variant="h6"
               align="center"
               color="text.secondary"
+              fontFamily="Dongle"
+              fontSize="28px"
               paragraph
             >
               Get all variety of foods you are looking for, from various eatries
               around you. View all eatries around, view their various menu,
               prices and easily contact them to place your order.
             </Typography>
-            <div style={{ marginTop: 50, border: "1px solid #61C890" }}>
-              <h3 style={{ textAlign: "center" }}>Veet Beta</h3>
+            <div style={{ marginTop: 50, border: "1px solid #61C890", padding: "10px", paddingTop: "0px" }}>
+              <h3
+                style={{
+                  textAlign: "center",
+                  fontFamily: "Dongle",
+                  fontSize: "35px",
+                  marginBottom: "-5px",
+                }}
+              >
+                Veet Beta
+              </h3>
               <Typography
                 variant="h6"
                 align="center"
                 color="text.secondary"
+                fontFamily="Dongle"
+                fontSize="28px"
                 paragraph
               >
                 Would you like to join the beta production? then download app
                 from the section below.
               </Typography>
             </div>
-            <h3 style={{ textAlign: "center", marginTop: 60 }}>Download App</h3>
+            <h3
+              style={{
+                textAlign: "center",
+                marginTop: 60,
+                fontFamily: "Dongle",
+                fontSize: "35px",
+                marginBottom: "-10px",
+              }}
+            >
+              Download App
+            </h3>
             <div className="stack-btn">
               <Stack
                 sx={{ pt: 4 }}
@@ -91,6 +116,8 @@ export default function Main({ title }) {
                 variant="h6"
                 align="center"
                 color="text.secondary"
+                fontFamily="Dongle"
+                fontSize="28px"
                 paragraph
               >
                 Thank you for trying it out.
@@ -112,6 +139,8 @@ export default function Main({ title }) {
           variant="subtitle1"
           align="center"
           color="text.secondary"
+          fontFamily="Dongle"
+          fontSize="28px"
           component="p"
         >
           Find nearby eatries easily and contact them
