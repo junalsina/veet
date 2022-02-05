@@ -18,7 +18,9 @@ export default function Header() {
               src="icon.png"
             />
           </Typography>
-          <CustomizedButtons title="Be a user?" />
+          <a href="#TryTheBetaApp" style={{ textDecoration: "none" }}>
+            <CustomizedButtons title="Be a user?" />
+          </a>
         </Toolbar>
       </AppBar>
     </Box>

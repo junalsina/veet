@@ -11,7 +11,13 @@ import CustomizedButtons from "./Button";
 
 function Copyright() {
   return (
-    <Typography variant="body2" fontFamily="Dongle" fontSize="25px" color="text.secondary" align="center">
+    <Typography
+      variant="body2"
+      fontFamily="Dongle"
+      fontSize="25px"
+      color="text.secondary"
+      align="center"
+    >
       {"Copyright © "}
       <Link color="inherit" href="veetgh.herokuapp.com">
         veet
@@ -24,7 +30,7 @@ function Copyright() {
 
 const theme = createTheme();
 
-export default function Main({ title }) {
+export default function Main() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -62,7 +68,14 @@ export default function Main({ title }) {
               around you. View all eatries around, view their various menu,
               prices and easily contact them to place your order.
             </Typography>
-            <div style={{ marginTop: 50, border: "1px solid #61C890", padding: "10px", paddingTop: "0px" }}>
+            <div
+              style={{
+                marginTop: 50,
+                border: "1px solid #61C890",
+                padding: "10px",
+                paddingTop: "0px",
+              }}
+            >
               <h3
                 style={{
                   textAlign: "center",
@@ -93,6 +106,7 @@ export default function Main({ title }) {
                 fontSize: "35px",
                 marginBottom: "-10px",
               }}
+              id="TryTheBetaApp"
             >
               Download App
             </h3>
@@ -105,11 +119,11 @@ export default function Main({ title }) {
               >
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://firebasestorage.googleapis.com/v0/b/veet-de560.appspot.com/o/veet.apk?alt=media&token=8c927505-d5c8-4c4b-887f-55f5e51d3703"
+                  href="https://firebasestorage.googleapis.com/v0/b/veet-de560.appspot.com/o/veet.apk?alt=media&token=4c38b228-c843-4da0-ba3b-3def81ce7ea0"
                 >
                   <CustomizedButtons title="Android" />
                 </a>
-                <CustomizedButtons title="iPhone" />
+                <CustomizedButtons title="iPhone" execute="true" />
               </Stack>
               <Typography
                 style={{ marginTop: 20 }}
